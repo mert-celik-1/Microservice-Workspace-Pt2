@@ -26,6 +26,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck-ServiceA", "3-H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck-Monitoring-Service", "3-HealthCheck\HealthCheck-Monitoring-Service\HealthCheck-Monitoring-Service.csproj", "{034618A7-DCBD-4FED-B1E7-D471FB58F227}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Tracebility", "4-Tracebility", "{4436B20C-5BC5-4DF6-ADA8-A65B8CE77CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tracebility-Console-Application", "Tracebility-Console-Application", "{42CA09A1-12C0-4D95-9702-263718599079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "4-Tracebility\Tracebility-Console-Application\ConsoleApp\ConsoleApp.csproj", "{BFA623F1-9504-436C-8557-956A193FB761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tracebility-Web-Application", "Tracebility-Web-Application", "{3DBF1736-C80F-494A-820D-20A525982C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracebility-Web-App", "4-Tracebility\Tracebility-Web-Application\Tracebility-Web-App\Tracebility-Web-App.csproj", "{CD781DC5-9BC7-4E30-9ACE-3CC9AF0654EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tracebility-Message-Broker", "Tracebility-Message-Broker", "{C9A99BAF-38D5-4424-B76E-34A903D8A248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracebility-Message-Broker-Shared", "4-Tracebility\Tracebility-Message-Broker\Tracebility-Message-Broker-Shared\Tracebility-Message-Broker-Shared.csproj", "{AD4FC241-01D7-4CBE-B371-15136BAFA865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracebility-Message-Broker-Consumer", "4-Tracebility\Tracebility-Message-Broker\Tracebility-Message-Broker-Consumer\Tracebility-Message-Broker-Consumer.csproj", "{2BE107CD-6C64-4E5B-89FD-67A02BBAC325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracebility-Message-Broker-Publisher", "4-Tracebility\Tracebility-Message-Broker\Tracebility-Message-Broker-Publisher\Tracebility-Message-Broker-Publisher.csproj", "{0CD7497C-DA3D-478E-A207-EF09565BD180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +90,26 @@ Global
 		{034618A7-DCBD-4FED-B1E7-D471FB58F227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034618A7-DCBD-4FED-B1E7-D471FB58F227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034618A7-DCBD-4FED-B1E7-D471FB58F227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA623F1-9504-436C-8557-956A193FB761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA623F1-9504-436C-8557-956A193FB761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA623F1-9504-436C-8557-956A193FB761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA623F1-9504-436C-8557-956A193FB761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD781DC5-9BC7-4E30-9ACE-3CC9AF0654EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD781DC5-9BC7-4E30-9ACE-3CC9AF0654EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD781DC5-9BC7-4E30-9ACE-3CC9AF0654EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD781DC5-9BC7-4E30-9ACE-3CC9AF0654EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4FC241-01D7-4CBE-B371-15136BAFA865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4FC241-01D7-4CBE-B371-15136BAFA865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4FC241-01D7-4CBE-B371-15136BAFA865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4FC241-01D7-4CBE-B371-15136BAFA865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE107CD-6C64-4E5B-89FD-67A02BBAC325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE107CD-6C64-4E5B-89FD-67A02BBAC325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE107CD-6C64-4E5B-89FD-67A02BBAC325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE107CD-6C64-4E5B-89FD-67A02BBAC325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD7497C-DA3D-478E-A207-EF09565BD180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD7497C-DA3D-478E-A207-EF09565BD180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD7497C-DA3D-478E-A207-EF09565BD180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD7497C-DA3D-478E-A207-EF09565BD180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{499D3CD5-4EA2-49D2-90DA-A2BE3AC55F88} = {6FBA30DC-A050-4283-9FDF-12942267AEEF}
@@ -84,5 +122,13 @@ Global
 		{9DD25FC7-15D6-49CC-B9D4-E3AA3E8300C7} = {3224CCFD-22E8-499E-9BCF-D52C950EAAB3}
 		{0B5F4074-5F72-43E4-ADE6-8E7113794EDC} = {3224CCFD-22E8-499E-9BCF-D52C950EAAB3}
 		{034618A7-DCBD-4FED-B1E7-D471FB58F227} = {3224CCFD-22E8-499E-9BCF-D52C950EAAB3}
+		{42CA09A1-12C0-4D95-9702-263718599079} = {4436B20C-5BC5-4DF6-ADA8-A65B8CE77CA7}
+		{BFA623F1-9504-436C-8557-956A193FB761} = {42CA09A1-12C0-4D95-9702-263718599079}
+		{3DBF1736-C80F-494A-820D-20A525982C5D} = {4436B20C-5BC5-4DF6-ADA8-A65B8CE77CA7}
+		{CD781DC5-9BC7-4E30-9ACE-3CC9AF0654EA} = {3DBF1736-C80F-494A-820D-20A525982C5D}
+		{C9A99BAF-38D5-4424-B76E-34A903D8A248} = {4436B20C-5BC5-4DF6-ADA8-A65B8CE77CA7}
+		{AD4FC241-01D7-4CBE-B371-15136BAFA865} = {C9A99BAF-38D5-4424-B76E-34A903D8A248}
+		{2BE107CD-6C64-4E5B-89FD-67A02BBAC325} = {C9A99BAF-38D5-4424-B76E-34A903D8A248}
+		{0CD7497C-DA3D-478E-A207-EF09565BD180} = {C9A99BAF-38D5-4424-B76E-34A903D8A248}
 	EndGlobalSection
 EndGlobal

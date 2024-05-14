@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore-Shared", "2-Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore-Product-Event-Handler-Service", "2-EventStore\EventStore-Product-Event-Handler-Service\EventStore-Product-Event-Handler-Service.csproj", "{AE24F520-21EA-4D38-86B4-10FD37A51BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore-App", "2-EventStore\EventStore-App\EventStore-App.csproj", "{380D915A-AE55-4BDA-90E5-77795771E117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{AE24F520-21EA-4D38-86B4-10FD37A51BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE24F520-21EA-4D38-86B4-10FD37A51BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE24F520-21EA-4D38-86B4-10FD37A51BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380D915A-AE55-4BDA-90E5-77795771E117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380D915A-AE55-4BDA-90E5-77795771E117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380D915A-AE55-4BDA-90E5-77795771E117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380D915A-AE55-4BDA-90E5-77795771E117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{499D3CD5-4EA2-49D2-90DA-A2BE3AC55F88} = {6FBA30DC-A050-4283-9FDF-12942267AEEF}
@@ -54,5 +60,6 @@ Global
 		{80278B12-858E-4CE4-B80F-CAEB543C332D} = {6FBA30DC-A050-4283-9FDF-12942267AEEF}
 		{19E57892-62D5-4A8A-A76A-8223C62E66B5} = {655742F0-AA65-4107-8D5A-49479724D160}
 		{AE24F520-21EA-4D38-86B4-10FD37A51BD7} = {655742F0-AA65-4107-8D5A-49479724D160}
+		{380D915A-AE55-4BDA-90E5-77795771E117} = {655742F0-AA65-4107-8D5A-49479724D160}
 	EndGlobalSection
 EndGlobal
